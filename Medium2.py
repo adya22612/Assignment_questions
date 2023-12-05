@@ -1,7 +1,7 @@
 import numpy as np
 
 # Taking multiple integer numbers and assigning it to variable nums forming a list
-arr=list(map(int,input().split()))
+arr=np.array(list(map(int,input().split())))
 
 """ If the given constraints are satisfied
     then np.unique gives unique elements in a sorted manner
